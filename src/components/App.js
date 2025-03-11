@@ -15,7 +15,7 @@ const App = () => {
       validationerror.username = "Name is required";
     }
     if (!/^\S+@\S+\.\S+(\.\S+)?$/.test(email)) {
-      validationerror.email = "Invalid Email Format";
+      validationerror.email = "Invalid email format";
     }
     if (password.length < 6) {
       validationerror.password = "Password must be 6 character long";
